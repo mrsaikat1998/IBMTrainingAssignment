@@ -7,7 +7,7 @@ public class ProductTest {
 	public static void main(String[] args) {
 		//create new object
 		Product product = new Product();
-		//sete values
+		//set values
 		product.setProductCode("P101");
 		product.setProductName("Laptop");
 		product.setProductPrice(45000.0);

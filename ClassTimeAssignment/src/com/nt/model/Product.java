@@ -1,7 +1,7 @@
 package com.nt.model;
 
 public class Product {
-
+	
 	private String productCode;
 	private String productName;
 	private double productPrice;
