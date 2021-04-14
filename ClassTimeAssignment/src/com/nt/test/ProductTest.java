@@ -12,9 +12,9 @@ public class ProductTest {
 		product.setProductName("Laptop");
 		product.setProductPrice(45000.0);
 		//get values
-		System.out.println("Product Code :" + product.getProductCode());
-		System.out.println("Product Code :" + product.getProductName());
-		System.out.println("Product Code :" + product.getProductPrice());
+		System.out.println("Product Code : " + product.getProductCode());
+		System.out.println("Product Code : " + product.getProductName());
+		System.out.println("Product Code : " + product.getProductPrice());
 
 	}
 

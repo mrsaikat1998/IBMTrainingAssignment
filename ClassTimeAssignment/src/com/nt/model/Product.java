@@ -6,15 +6,6 @@ public class Product {
 	private String productName;
 	private double productPrice;
 
-	public Product() {
-	}
-
-	public Product(String productCode, String productName, double productPrice) {
-		this.productCode = productCode;
-		this.productName = productName;
-		this.productPrice = productPrice;
-	}
-
 	public String getProductCode() {
 		return productCode;
 	}
