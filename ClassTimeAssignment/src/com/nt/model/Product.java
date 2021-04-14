@@ -5,8 +5,9 @@ public class Product {
 	private String productCode;
 	private String productName;
 	private double productPrice;
-	
-	public Product() {}
+
+	public Product() {
+	}
 
 	public Product(String productCode, String productName, double productPrice) {
 		this.productCode = productCode;
