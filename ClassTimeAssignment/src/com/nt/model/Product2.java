@@ -44,8 +44,7 @@ public class Product2 {
 	}
 private  String generateProductCode() {
 	productCounter++;
-	String s=""+productCounter;
-	
+	String s=""+productCounter;	
 	return s;
 }
 
