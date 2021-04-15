@@ -1,17 +1,36 @@
 package com.nt.model;
 
 public class Customer {
-	// instance variable
-	int customerId = 101;
-	String customerName = "Saikat";
+	private String customerName;
+	private Address residentialAddress;
 
-	// display method
-	public void print() {
-		System.out.println("Customer Id :" + customerId + "\n Customer Name : " + customerName);
+	public Customer() {
+
 	}
 
-	public static void main(String[] args) {
-		Customer customer1 = new Customer();
-		customer1.print();
+	public Customer(String customerName, Address residentialAddress) {
+		this.customerName = customerName;
+		this.residentialAddress = residentialAddress;
 	}
+
+	public String getCustomerName() {
+		return customerName;
+	}
+
+	public void setCustomerName(String customerName) {
+		this.customerName = customerName;
+	}
+
+	public Address getResidentialAddress() {
+		return residentialAddress;
+	}
+
+	public void setResidentialAddress(Address residentialAddress) {
+		this.residentialAddress = residentialAddress;
+	}
+	
+	public String getCustomerDetails() {
+		return "Customer : "+customerName+"\n Residential Address : "+residentialAddress;
+	}
+
 }
