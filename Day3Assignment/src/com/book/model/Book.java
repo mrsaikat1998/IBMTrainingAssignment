@@ -19,4 +19,11 @@ public class Book {
 		if (price >= 0)
 			this.price = price;
 	}
+
+	@Override
+	public String toString() {
+		return "bookID : " + bookID + "\n bookTitle : " + bookTitle + "\nauthor : " + author + "\ncategory : "
+				+ category + "\nprice=" + price;
+	}
+
 }

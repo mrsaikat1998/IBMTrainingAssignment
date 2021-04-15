@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class CrecketerId {
+public class CrecketerId06 {
 
 	public static void findCricketerId(int []array,int size, int score) {
 		System.out.print("Highest Score Cricketer Id : ");
