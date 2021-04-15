@@ -15,7 +15,9 @@ public class TestCustomer {
 		System.out.println(cust1.getCustomerName());
 		System.out.println(cust1.getResidentialAddress());
 		
-		Customer cust2 = new Customer("Saikat", new Address("1st Main HSR Layout", "Bengaluru"));
+		System.out.println("--------------------------------------------------");
+		
+		Customer cust2 = new Customer("John", new Address("1st Main HSR Layout", "Bengaluru"));
 		System.out.println(cust2.getCustomerDetails());
 	}
 
