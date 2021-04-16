@@ -27,7 +27,7 @@ public class Rectangle implements Pollygon {
 	}
 
 	@Override
-	public void callArea() {
+	public void calcArea() {
 		System.out.println("Area of Ractengle : " + (length * breadth));
 
 	}

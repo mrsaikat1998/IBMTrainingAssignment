@@ -1,7 +1,7 @@
 package com.shape;
 
 public interface Pollygon {
-	void callArea();
+	void calcArea();
 
 	void calcPeri();
 }

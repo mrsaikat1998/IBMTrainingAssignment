@@ -16,7 +16,7 @@ public class Square implements Pollygon {
 	}
 
 	@Override
-	public void callArea() {
+	public void calcArea() {
 		System.out.println("Area of Square : " + (side * side));
 
 	}
