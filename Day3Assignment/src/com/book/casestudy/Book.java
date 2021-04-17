@@ -13,9 +13,10 @@ public class Book {
 			this.bookID = bookID;
 		this.bookTitle = bookTitle;
 		this.author = author;
-		if (category.equals("Science") && category.equals("Fiction") && category.equals("Technology")
-				&& category.equals("Others"))
+		if (category.equalsIgnoreCase("Science") || category.equalsIgnoreCase("Fiction") || category.equalsIgnoreCase("Technology")
+				|| category.equalsIgnoreCase("Others")) {
 			this.category = category;
+		}
 		if (price >= 0)
 			this.price = price;
 	}
