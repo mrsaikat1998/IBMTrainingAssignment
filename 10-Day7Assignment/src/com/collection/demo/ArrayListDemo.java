@@ -1,4 +1,4 @@
-package com.collection.arraylist;
+package com.collection.demo;
 
 import java.util.ArrayList;
 import java.util.ListIterator;
