@@ -10,12 +10,12 @@ public class Book implements Comparable<Book>{
 
 	}
 
-	public Book(String bookID, String bookTitle, String author, float price) {
+	public Book(String bookID, String bookTitle, String author, float d) {
 		super();
 		this.bookID = bookID;
 		this.bookTitle = bookTitle;
 		this.author = author;
-		this.price = price;
+		this.price = d;
 	}
 
 	public String getBookID() {
@@ -52,13 +52,12 @@ public class Book implements Comparable<Book>{
 
 	@Override
 	public String toString() {
-		return "Book [bookID=" + bookID + ", bookTitle=" + bookTitle + ", author=" + author + ", price=" + price + "]";
+		return "bookID=" + bookID + ", bookTitle=" + bookTitle + ", author=" + author + ", price=" + price + "\n";
 	}
 
 	@Override
 	public int compareTo(Book o) {
-		// TODO Auto-generated method stub
-		return 0;
+		return this.bookID.compareTo(o.bookID);
 	}
 
 }
