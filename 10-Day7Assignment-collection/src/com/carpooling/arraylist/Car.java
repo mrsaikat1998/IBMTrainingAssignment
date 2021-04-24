@@ -1,5 +1,8 @@
 package com.carpooling.arraylist;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Car {
 	private long id;
 	private String name;
@@ -7,12 +10,13 @@ public class Car {
 	private int makeYear;
 	private String company;
 	private int comfortLevel;
+	private static List<Car> carList = new ArrayList<>();
 
 	public Car() {
+		
 	}
 
 	public Car(long id, String name, String model, int makeYear, String company, int comfortLevel) {
-		super();
 		this.id = id;
 		this.name = name;
 		Model = model;
@@ -67,6 +71,14 @@ public class Car {
 
 	public void setComfortLevel(int comfortLevel) {
 		this.comfortLevel = comfortLevel;
+	}
+
+	public List<Car> getCarList() {
+		return carList;
+	}
+
+	public void setCarList(Car car) {
+		this.carList.add(car);
 	}
 
 	@Override

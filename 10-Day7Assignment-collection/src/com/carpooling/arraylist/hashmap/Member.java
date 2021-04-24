@@ -1,10 +1,6 @@
-package com.carpooling.arraylist;
-
-import java.util.ArrayList;
-import java.util.List;
+package com.carpooling.arraylist.hashmap;
 
 public class Member {
-	private int memberId;
 	private String firstName;
 	private String lastName;
 	private String email;
@@ -12,15 +8,12 @@ public class Member {
 	private String registrationId;
 	private String registrationStartDate;
 	private String registrationEndDate;
-	private static List<Member> memberList = new ArrayList<>();;
 
 	public Member() {
-
 	}
 
-	public Member(int memberId, String firstName, String lastName, String email, String mobNo, String registrationId,
+	public Member(String firstName, String lastName, String email, String mobNo, String registrationId,
 			String registrationStartDate, String registrationEndDate) {
-		this.memberId = memberId;
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.email = email;
@@ -28,14 +21,6 @@ public class Member {
 		this.registrationId = registrationId;
 		this.registrationStartDate = registrationStartDate;
 		this.registrationEndDate = registrationEndDate;
-	}
-
-	public int getMemberId() {
-		return memberId;
-	}
-
-	public void setMemberId(int memberId) {
-		this.memberId = memberId;
 	}
 
 	public String getFirstName() {
@@ -92,14 +77,6 @@ public class Member {
 
 	public void setRegistrationEndDate(String registrationEndDate) {
 		this.registrationEndDate = registrationEndDate;
-	}
-
-	public List<Member> getMemberList() {
-		return memberList;
-	}
-
-	public void setMemberList(Member member) {
-		this.memberList.add(member);
 	}
 
 	@Override

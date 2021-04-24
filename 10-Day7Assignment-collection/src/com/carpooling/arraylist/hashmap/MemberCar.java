@@ -1,7 +1,4 @@
-package com.carpooling.arraylist;
-
-import java.util.ArrayList;
-import java.util.List;
+package com.carpooling.arraylist.hashmap;
 
 public class MemberCar {
 	private long Id;
@@ -9,6 +6,9 @@ public class MemberCar {
 	private Car car;
 	private String carRegistration;
 	private String color;
+
+	public MemberCar() {
+	}
 
 	public MemberCar(long id, Member member, Car car, String carRegistration, String color) {
 		Id = id;
