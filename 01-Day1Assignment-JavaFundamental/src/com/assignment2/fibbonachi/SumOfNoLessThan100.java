@@ -1,4 +1,4 @@
-package com.sm.fibbonachi;
+package com.assignment2.fibbonachi;
 
 public class SumOfNoLessThan100 {
 
