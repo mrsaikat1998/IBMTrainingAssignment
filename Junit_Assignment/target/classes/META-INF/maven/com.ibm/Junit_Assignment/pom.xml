@@ -6,10 +6,10 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.ibm</groupId>
-	<artifactId>Junit_Test</artifactId>
+	<artifactId>Junit_Assignment</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
-	<name>Junit_Test</name>
+	<name>Junit_Assignment</name>
 	<!-- FIXME change it to the project's website -->
 	<url>http://www.example.com</url>
 
@@ -20,7 +20,7 @@
 	</properties>
 
 	<dependencies>
-
+	
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter-engine</artifactId>
@@ -40,6 +40,7 @@
 			<artifactId>junit-platform-commons</artifactId>
 			<version>1.5.2</version>
 		</dependency>
+
 	</dependencies>
 
 	<build>
